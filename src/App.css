@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.weatherBg {
+    background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg ");
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weatherResultBox {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weathorIcon {
+    width: 100px;
+    height: 100px;
+    margin-top: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.weathorCity {
+    font-size: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weathorTemp {
+    font-size: 65px;
+    font-weight: 700;
 }
+
+
+/* i.pinimg.com/originals/77/0b/80/77Ob805d5c99c7931366c2e84e88f251.png */
